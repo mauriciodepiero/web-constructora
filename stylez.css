@@ -31,6 +31,20 @@ header{
    padding: 10px;
 }
 
+.navbar {
+    padding: 2rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
 .logo {
     display:flex;
     align-items: center;
@@ -40,6 +54,7 @@ header{
     height: 120px;
     margin-left: 05px;
 }
+
 
 nav a{
     font-weight: 600px;
@@ -59,11 +74,36 @@ nav a:hover{
     padding: 10px 0px;
    }
 }
- .footer {
-    background-color: rgba(253, 68, 68, 0.431);
+ footer {
+    background-color: rgba(70, 69, 69, 0.896);
     padding: 20px 0;
     text-align: center;
     position:absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
+    font-family: "open sans";
+    color: white;
+ }
+ .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+   
+ }
+
+ .footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+ }
+
+ .footer_bootom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
  }
